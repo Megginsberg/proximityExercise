@@ -1,7 +1,48 @@
-h1 {
-  background-color: #52637B;
+nav {
+width: 25%;
+padding: 15px;
+margin: 10px;
+box-sizing: border-box;
+float:left;
+font-family: sans-serif;
 }
 
-#div1 {
-  
+#rightSidebar {
+  float: right;
+  width: 25%;
+  margin: 15px;
+  box-sizing: border-box;
+  padding: 15px;
+  font-family: sans-serif;
+}
+
+#mainContent {
+  float: left;
+  width: 43%;
+  margin: 15px;
+  box-sizing: border-box;
+  padding: 15px;
+  border-left: #52637B;
+  border-right: #52637B;
+  font-family: sans-serif;
+}
+
+h1 {
+  margin: auto;
+  width: 5%
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+#wrapper {
+  width: 100%;
+}
+
+header {
+ margin: auto;
+ padding: 20px;
+ box-sizing: border-box;
+ width: 100%;
+ text-align: center;
+ background-color: #52637B
 }
